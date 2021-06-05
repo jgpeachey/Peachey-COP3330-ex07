@@ -39,7 +39,7 @@ public class App {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args){
-        double ftm = 0.09290304;
+        final double ftm = 0.09290304;
 
         System.out.println("What is the length of the room in feet?");
         double length = in.nextDouble();
